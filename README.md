@@ -1,2 +1,4 @@
 # dnaresearch-portal-docker
-This is a repo for the Portal (Docker)
+### Start the portal
+docker build -t dnsresearch-portal:v1 .  
+docker run -d -p 80:80 dnsresearch-portal:v1
